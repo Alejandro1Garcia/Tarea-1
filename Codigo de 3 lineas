@@ -1,0 +1,16 @@
+variable1 = 0;
+variable2 = 100;
+variable3 = 200;
+variable4 = 255;
+function setup() {
+  createCanvas(400, 400);
+fill(variable4);
+rect(variable1,variable1,variable3,variable3);
+line(variable2,variable1,variable2,variable2);
+line(variable2,variable2,variable1,variable3);
+line(variable2,variable2,variable3,variable3);
+
+function draw() {
+  background(220);
+}
+}
